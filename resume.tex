@@ -1,0 +1,278 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-darknight}
+%\definecolor{awesome}{HTML}{151515}
+%% Colors for text
+%\definecolor{darktext}{HTML}{151515}
+%\definecolor{text}{HTML}{151515}
+%\definecolor{graytext}{HTML}{151515}
+%\definecolor{lighttext}{HTML}{151515}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Jan} \headerlastnamestyle{Owiesniak} \\
+	\vspace{5mm}
+\end{center}
+
+\vspace{+10mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Fachoberschulreife}
+	{Gesamtschule Wulfen}
+	{46286 Dorsten, Germany}
+	{2004}
+	{}
+	\cventry
+	{Fachhochschulreife}
+	{Berufskolleg Mitte}
+	{45661 Recklinghausen, Germany}
+	{2008}
+	{}
+	\cventry
+	{Bachelor in Praktische Informatik}
+	{Fachhochschule Dortmund}
+	{44139 Dortmund, Germany}
+	{Present}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Student Assistant Software Development}
+	{Neopoly GmbH}
+	{44787 Bochum, Germany}
+	{May 2011 – July 2012}
+	{\begin{cvitems}
+		\item {Pixel Pusher}
+		\end{cvitems}}
+	\cventry
+	{Founder}
+	{featurefabrik UG}
+	{44795 Bochum, Germany}
+	{June 2012 – December 2015}
+	{\begin{cvitems}
+		\item {Business Executive}
+		\item {Software Development}
+		\end{cvitems}}
+	\cventry
+	{Junior Software Developer}
+	{Neopoly GmbH}
+	{44787 Bochum, Germany}
+	{August 2012 – December 2015}
+	{\begin{cvitems}
+		\item {Development of internal and external software projects}
+		\end{cvitems}}
+	\cventry
+	{Senior Software Developer}
+	{Neopoly GmbH}
+	{44787 Bochum, Germany}
+	{January 2016 – September 2017}
+	{\begin{cvitems}
+		\item {Management and development of external software projects}
+		\end{cvitems}}
+	\cventry
+	{Attendee}
+	{Conferences}
+	{Europe}
+	{2014 – Present}
+	{\begin{cvitems}
+		\item {ElixirConf}
+		\item {EuRuKo}
+		\item {Chaos Communication Congress}
+		\item {Ruhr JS}
+		\item {eurucamp}
+		\item {RuhrSec}
+		\item {RuhrSummit}
+		\item {devcom}
+		\end{cvitems}}
+	\cventry
+	{Tough Mudder Finisher}
+	{Personal Achievement}
+	{59757 Arnsberg, Germany}
+	{2017}
+	{}
+	\cventry
+	{Camino de Santiago trail}
+	{Personal Goal}
+	{}
+	{October 2017 – November 2017}
+	{}
+\end{cventries}
+
+\newpage
+
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{Personal}
+	{}
+	{}
+	{\begin{cvitems}
+		\item {Empathy}
+		\item {Adaptability}
+		\item {Solution Focused Decision Making}
+		\item {High Sense Of Responsibility}
+		\item {Entrepreneurial Mindset}
+		\item {Futuristic Thinking}
+	\end{cvitems}}
+	
+	\vspace{-2mm}
+	\cventry
+	{}
+	{Technical}
+	{}
+	{}
+	{\begin{cvitems}
+		\item {Documentation}
+		\item {Domain-Driven Design}
+		\item {API-First Development}
+	\end{cvitems}}	
+
+	\vspace{-2mm}
+	\cventry
+	{}
+	{Frontend}
+	{}
+	{}
+	{\begin{cvitems}
+		\item {JavaScript}
+		\item {CSS}
+		\item {HTML}
+	\end{cvitems}}
+	
+	\vspace{-2mm}
+	\cventry
+	{}
+	{Backend}
+	{}
+	{}
+	{\begin{cvitems}
+		\item {Ruby}
+		\item {Elixir}
+		\item {Crystal}
+		\item {JavaScript}
+	\end{cvitems}}
+	
+	\vspace{-2mm}
+	\cventry
+	{}
+	{DevOps}
+	{}
+	{}
+	{\begin{cvitems}
+		\item {Continuous Integration}
+		\item {Amazon Web Services}
+		\item {Docker}
+	\end{cvitems}}	
+	
+\end{cventries}
+
+\newpage
+
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Plan and execute events}
+	{Event Platform}
+	{Ruby on Rails, JavaScript}
+	{}
+	{\begin{cvitems}
+		\item {Lamborghini}
+		\item {BMW}
+		\item {MINI}
+		\item {Skoda}
+	\end{cvitems}}
+	
+	\vspace{-2mm}
+	\cventry
+	{Play single and multiplayer quizzes}
+	{Quiz Platform}
+	{Ruby on Rails, JavaScript, SmartFox}
+	{}
+	{\begin{cvitems}
+		\item {MSN}
+		\item {FIFA}
+	\end{cvitems}}
+	
+	\vspace{-2mm}
+	\cventry
+	{Manage a football team and compete against others}
+	{Fantasy Platform}
+	{Ruby on Rails, JavaScript, SmartFox}
+	{}
+	{\begin{cvitems}
+		\item {Bundesliga}
+		\item {Liga MX}
+		\item {Ligue 1}
+		\item {2014 World Cup}
+	\end{cvitems}}
+	
+	\vspace{-2mm}
+	\cventry
+	{Translate internal software products into multiple languages}
+	{Babel Platform}
+	{Ruby on Rails, JavaScript}
+	{}
+	{}
+	
+	\vspace{-2mm}
+	\cventry
+	{Community of open minded people in the Ruhr area that are interested in the Elixir programming language}
+	{ElixirRuhr}
+	{Elixir}
+	{http://elixir.ruhr}
+	{}
+\end{cventries}
+    
+ \begin{center}
+	\vspace{\fill}
+	{\faEnvelope\ jan@owiesniak.io} | {\faMobile\ +49 151 576 975 39} | {\faMapMarker\ Vorm Kiwitt 3, 44795 Bochum} | {\faLink\ http://owiesniak.io}
+\end{center}
+\ 
+\end{document}
