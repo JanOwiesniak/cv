@@ -1,3 +1,3 @@
 # Curriculum Vitae
 
-[Download PDF](resume.pdf)
+[Download PDF](https://github.com/JanOwiesniak/cv/raw/master/resume.pdf)
