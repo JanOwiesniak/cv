@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.13)  14 AUG 2017 09:08
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.13)  14 AUG 2017 09:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,12 +880,12 @@ t line 64.
  [1
 
 ] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 304.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 304.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 304.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 304.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 305.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 305.
  ) 
 Here is how much of TeX's memory you used:
  24401 strings out of 493005
